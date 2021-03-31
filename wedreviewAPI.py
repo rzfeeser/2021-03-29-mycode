@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""RZFeeser || exploring a catfact api"""
+"""RZFeeser || exploring a catfact api
+we ran this example in jenkins"""
 
 CATFACT = "https://cat-fact.herokuapp.com/facts"
 
