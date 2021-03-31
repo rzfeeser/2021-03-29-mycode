@@ -1,0 +1,61 @@
+Some cat facts from https://cat-fact.herokuapp.com/facts
+
+- __v: 0
+  _id: 58e008800aac31001185ed07
+  createdAt: '2018-03-06T21:20:03.505Z'
+  deleted: false
+  source: user
+  status: {sentCount: 1, verified: true}
+  text: Wikipedia has a recording of a cat meowing, because why not?
+  type: cat
+  updatedAt: '2020-08-23T20:20:01.611Z'
+  used: false
+  user: 58e007480aac31001185ecef
+- __v: 0
+  _id: 58e008630aac31001185ed01
+  createdAt: '2018-02-07T21:20:02.903Z'
+  deleted: false
+  source: user
+  status: {sentCount: 1, verified: true}
+  text: When cats grimace, they are usually "taste-scenting." They have an extra organ
+    that, with some breathing control, allows the cats to taste-sense the air.
+  type: cat
+  updatedAt: '2020-08-23T20:20:01.611Z'
+  used: false
+  user: 58e007480aac31001185ecef
+- __v: 0
+  _id: 58e00a090aac31001185ed16
+  createdAt: '2018-02-11T21:20:03.745Z'
+  deleted: false
+  source: user
+  status: {sentCount: 1, verified: true}
+  text: Cats make more than 100 different sounds whereas dogs make around 10.
+  type: cat
+  updatedAt: '2020-08-23T20:20:01.611Z'
+  used: false
+  user: 58e007480aac31001185ecef
+- __v: 0
+  _id: 58e009390aac31001185ed10
+  createdAt: '2018-03-04T21:20:02.979Z'
+  deleted: false
+  source: user
+  status: {sentCount: 1, verified: true}
+  text: 'Most cats are lactose intolerant, and milk can cause painful stomach cramps
+    and diarrhea. It''s best to forego the milk and just give your cat the standard:
+    clean, cool drinking water.'
+  type: cat
+  updatedAt: '2020-08-23T20:20:01.611Z'
+  used: false
+  user: 58e007480aac31001185ecef
+- __v: 0
+  _id: 58e008780aac31001185ed05
+  createdAt: '2018-03-29T20:20:03.844Z'
+  deleted: false
+  source: user
+  status: {sentCount: 1, verified: true}
+  text: Owning a cat can reduce the risk of stroke and heart attack by a third.
+  type: cat
+  updatedAt: '2020-08-23T20:20:01.611Z'
+  used: false
+  user: 58e007480aac31001185ecef
+
