@@ -44,12 +44,17 @@ def main():
     # number of rows and columns (5042, 24)
     print(movies.shape)
 
+    # unfortunately our data has some duplicates in it
+    # we can remove them quickly with the .drop_duplicates() method
+    # this returns a dataframe, or None if .drop_duplicates(inplace=True)
+    movies.drop_duplicates(inplace=True)
+    
+    # take a peek at how our dataframe changed after removing duplicates
+    print(movies.shape)
+    
     # sort DataFrame based on Gross Earnings
     sorted_by_gross = movies.sort_values(["Gross Earnings"], ascending=False)
 
-    # we have duplicated data. get rid of it.
-    sorted_by_gross.drop_duplicates(inplace=True) # if inplace=True not set, then
-                                            # use sorted_by_gross = sorted_by_gross.drop_duplicates()
     # Data is sorted by values in a column
     # display the top 10 movies by Gross Earnings.
     # passing the 10 values to head returns the top 10 not the default 5
@@ -60,12 +65,10 @@ def main():
     # save the figure as stackedbar.png
     plt.savefig("/home/student/static/stackedbar.png", bbox_inches='tight')
 
-    #print(dir(movies))
-
-    movies.to_excel("~/static/allmovies.xls")
-    #movies.to_json("~/static/allmovies.json")
-    movies.to_csv("~/static/allmovies.csv")
+    movies= movies.drop(columns="Facebook*")
+    movies.to_json("~/static/movies.json")
+    movies.to_excel("~/static/movies.excel")
+    movies.to_csv("~/static/movies.csv")
 
 if __name__ == "__main__":
     main()
-
